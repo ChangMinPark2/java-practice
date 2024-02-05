@@ -1,6 +1,6 @@
 package sec02.chap03;
 
-public class EX02 {
+public class Ex02 {
     public static void main(String[] args) {
 
         System.out.println("원주율: " + 3.14);
