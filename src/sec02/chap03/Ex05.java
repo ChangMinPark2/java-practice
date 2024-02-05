@@ -6,7 +6,7 @@ public class Ex05 {
 //    INT_NUM = 2; // ⚠️ 불가
 
     //  사용 가능
-//    int yalco, _yalco, $yalco, 얄코;
+    int yalco, _yalco, $yalco, 얄코;
 
     // 사용 불가
 //    int 1yalco;
