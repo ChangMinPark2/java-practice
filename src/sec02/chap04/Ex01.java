@@ -17,8 +17,11 @@ public class Ex01 {
         //  큰 자료형에 작은 자료형의 값을 넣을 수 있음
         //  💡 묵시적(암시적) 형변환
         _2b_short = _1b_byte;
-        _4b_int = _1b_byte; _4b_int = _2b_short;
-        _8b_long = _1b_byte; _8b_long = _2b_short; _8b_long = _4b_int;
+        _4b_int = _1b_byte;
+        _4b_int = _2b_short;
+        _8b_long = _1b_byte;
+        _8b_long = _2b_short;
+        _8b_long = _4b_int;
 
         //  ⚠️ 작은 자료형에 큰 자료형의 값을 '그냥' 넣을 수 없음
         //  들어있는 값의 크기와 무관
