@@ -16,4 +16,8 @@ public class Ex02 {
     // ⭐ double이 범위도 넓고, 정밀도도 높음 확인
     boolean bool1 = Float.MAX_VALUE < Double.MAX_VALUE;
     boolean bool2 = Float.MIN_VALUE > Double.MIN_VALUE;
+
+    //  최대 정밀도 테스트
+    double dblNum = 0.123456789123456789;
+    float fltNum = 0.123456789123456789f;
 }
