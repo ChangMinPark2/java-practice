@@ -19,12 +19,14 @@ public class Ex03 {
         //  두 번째 인자 : ~번째 이후/이전부터 셈
         int int1 = str2.indexOf('얄');
         int int2 = str2.indexOf('얄', 4);
+        System.out.println(int2);
 
         int  int3 = str2.indexOf("얄라");
         int  int4 = str2.lastIndexOf("얄라");
         int  int5 = str2.lastIndexOf("얄라", 12);
 
         //  💡 포함되지 않은 문자는 -1 반환
+        System.out.println(11);
         int int6 = str2.indexOf('욜');
     }
 }
