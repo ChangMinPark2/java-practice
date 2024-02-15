@@ -15,4 +15,12 @@ public class Ex01 {
 
     //  ⚠️ 반환 자료형이 다른 것은 오버로딩 안 됨 - 다른 함수명 사용
     //  static double add(int a, int b) { return (double) (a + b); }
+
+    public static void main(String[] args) {
+        int res1 = add(1, 2); // 🔴 스텝인투로 들어가 볼 것
+        int res2 = add(3, 4, 5);
+        double res3 = add(1.2, 3.4);
+        String res4 = add("로보트 태권", 'V');
+        String res5 = add('X', "Men");
+    }
 }
