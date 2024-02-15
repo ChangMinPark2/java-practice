@@ -44,5 +44,6 @@ public class Ex05 {
                 System.out.printf("i: %d, j: %d%n", i, j);
             }
         }
+
     }
 }
