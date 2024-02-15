@@ -1,4 +1,4 @@
-package sec05.chap11;
+package sec06;
 
 public class Ex03 {
     public static void main(String[] args) {
