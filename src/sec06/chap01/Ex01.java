@@ -1,4 +1,4 @@
-package sec06;
+package sec06.chap01;
 
 public class Ex01 {
     //  💡 { } 로 블록 생성

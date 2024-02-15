@@ -1,4 +1,4 @@
-package sec06;
+package sec06.chap01;
 
 public class Ex04 {
 
