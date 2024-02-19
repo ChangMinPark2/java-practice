@@ -9,7 +9,7 @@ public class Queue <T>{
     }
 
     public T poll() {
-        if (list.size() == 0) throw new MyLinkedListException("큐의 값이 비어있으므로 dequeue() 메소드를 사용하실 수 없습니다.");
+        if (list.size() == 0) throw new MyLinkedListException("큐의 값이 비어있으므로 poll() 메소드를 사용하실 수 없습니다.");
         T data = list.get(0);
         list.delete(0);
         return data;
