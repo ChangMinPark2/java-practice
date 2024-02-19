@@ -109,7 +109,7 @@ public class MyLinkedList<T> implements Iterable<T> {
         /**
          하위 과제 for - each로 순회 가능하다.
          */
-        list.forEach(i -> System.out.println(i));
+        list.forEach(System.out::println);
 
         for (int i : list) {
             System.out.println("List의 각 요소들 입니다. : " + i);
