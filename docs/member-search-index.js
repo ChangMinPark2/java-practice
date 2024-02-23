@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"sec13.chap05","c":"RegularPolygon","l":"getInnerAngle()"},{"p":"sec13.chap05","c":"RegularPolygon","l":"getPerimeter(int)"},{"p":"sec13.chap05","c":"RegularPolygon","l":"RegularPolygon(int)","u":"%3Cinit%3E(int)"}];updateSearchResults();
