@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 public class Main {
+
     public static String objToString(Object obj) {
         Class<?> objClass = obj.getClass();
 
